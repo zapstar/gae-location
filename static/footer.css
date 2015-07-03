@@ -1,0 +1,17 @@
+/* Don't alter this CSS File, it contains the CSS elements for Sticky Footer */
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -70px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 70px; /* .push must be the same height as .footer */
+}
+/* Sticky Footer by Ryan Fait http://ryanfait.com/ */
